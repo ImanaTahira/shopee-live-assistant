@@ -35,4 +35,14 @@ env/
 # Project specific
 config.json
 *.log
-cookies.txt 
+cookies.txt
+
+# Original script (since we're using encrypted version)
+main.py
+
+# Temporary data files
+data.json
+
+# Keep encrypted files and key
+!main.enc
+!main.key 
